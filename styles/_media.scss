@@ -56,11 +56,3 @@ $mobile: 767px;
     }
   }
 }
-
-
-button {
-  background-color: lightblue;
-  @include hover{
-    background-color: lightcoral;
-  }
-}

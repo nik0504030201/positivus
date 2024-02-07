@@ -175,20 +175,6 @@ svg * {
 a {
   @include reset-link
 } */
-button {
-  background-color: lightblue;
-}
-@media (hover: hover) {
-  button:hover {
-    background-color: lightcoral;
-  }
-}
-@media (hover: none) {
-  button:active {
-    background-color: lightcoral;
-  }
-}
-
 :root {
   --color-dark: #191A23;
   --color-dark-alt: #292A32;
